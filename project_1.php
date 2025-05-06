@@ -6,7 +6,7 @@ $number = (int) readline();
 if ($number === 0) {
     echo "Your input number is zero";
 } elseif ($number > 0) {
-    echo "Your input number is positive";
+    echo "Your input number $number is positive";
 } else {
-    echo "Your input numbe ris negetive";
+    echo "Your input numbe $number is negetive";
 }
